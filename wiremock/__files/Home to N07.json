@@ -1,0 +1,37 @@
+{
+    "distance": "1.5 mi",
+    "duration": "3 mins",
+    "start_location": "28 Lincoln Park Rd, Pequannock Township, NJ 07440, USA",
+    "end_location": "Lincoln Park Airport, 425 Beaverbrook Rd #2, Lincoln Park, NJ 07035, USA",
+    "directions": [
+        {
+            "distance": "295 ft",
+            "duration": "1 min",
+            "direction": "Head <b>north</b> on <b>Lincoln Park Rd</b>"
+        },
+        {
+            "distance": "0.7 mi",
+            "duration": "1 min",
+            "maneuver": "keep-left",
+            "direction": "Keep <b>left</b> to continue on <b>Boulevard</b>"
+        },
+        {
+            "distance": "0.8 mi",
+            "duration": "2 mins",
+            "maneuver": "turn-left",
+            "direction": "Turn <b>left</b> onto <b>Jacksonville Rd</b>"
+        },
+        {
+            "distance": "157 ft",
+            "duration": "1 min",
+            "maneuver": "turn-left",
+            "direction": "Turn <b>left</b> onto <b>Beaverbrook Rd</b>/<b>Hillview Rd</b>"
+        },
+        {
+            "distance": "30 ft",
+            "duration": "1 min",
+            "maneuver": "turn-right",
+            "direction": "Turn <b>right</b><div style=\"font-size:0.9em\">Destination will be on the left</div>"
+        }
+    ]
+}

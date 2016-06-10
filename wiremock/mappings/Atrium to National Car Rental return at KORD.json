@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "url" : "/directions?ending=560%20Bessie%20Coleman%20Dr,%20Chicago&starting=3800%20Gulf%20Road,%20Rolling%20Meadows%20IL",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "Atrium to National Car Rental return at KORD.json",
+    "headers" : {
+      "X-Mashape-Key" : "dz76zlrCVimsh0GehwwnBjbZVXdgp1LwLckjsnety8AmdZq63k"
+    }
+  }
+}

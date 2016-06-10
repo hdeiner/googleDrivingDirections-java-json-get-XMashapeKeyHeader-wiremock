@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "url" : "/directions?ending=Lincoln%20Park%20Airport,%20Lincoln%20Park%20NJ&starting=28%20Lincoln%20Park%20Road,%20Pequannock%20NJ",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "Home to N07.json",
+    "headers" : {
+      "X-Mashape-Key" : "dz76zlrCVimsh0GehwwnBjbZVXdgp1LwLckjsnety8AmdZq63k"
+    }
+  }
+}

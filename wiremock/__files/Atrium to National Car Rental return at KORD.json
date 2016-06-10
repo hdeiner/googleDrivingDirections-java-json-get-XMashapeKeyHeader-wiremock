@@ -1,0 +1,96 @@
+{
+  "distance": "13.0 mi",
+  "duration": "18 mins",
+  "start_location": "3800 Golf Rd, Rolling Meadows, IL 60008, USA",
+  "end_location": "560 Bessie Coleman Dr, Chicago, IL 60666, USA",
+  "directions": [
+    {
+      "distance": "0.3 mi",
+      "duration": "1 min",
+      "direction": "Head <b>west</b> on <b>Golf Rd</b> toward <b>Ring Rd</b>"
+    },
+    {
+      "distance": "0.5 mi",
+      "duration": "1 min",
+      "maneuver": "turn-left",
+      "direction": "Turn <b>left</b> onto <b>McConnor Pkwy</b>"
+    },
+    {
+      "distance": "0.1 mi",
+      "duration": "1 min",
+      "maneuver": "turn-left",
+      "direction": "Turn <b>left</b> onto <b>Woodfield Rd</b>"
+    },
+    {
+      "distance": "0.1 mi",
+      "duration": "1 min",
+      "maneuver": "turn-left",
+      "direction": "Turn <b>left</b> onto <b>E Frontage Rd</b>"
+    },
+    {
+      "distance": "0.6 mi",
+      "duration": "1 min",
+      "direction": "Take the <b>IL-53 N</b>/<b>Interstate 90</b> ramp on the <b>left</b>"
+    },
+    {
+      "distance": "9.5 mi",
+      "duration": "10 mins",
+      "maneuver": "fork-right",
+      "direction": "Keep <b>right</b> at the fork, follow signs for <b>I-90 E</b>/<b>Chicago</b> and merge onto <b>I-90 E</b><div style=\"font-size:0.9em\">Toll road</div>"
+    },
+    {
+      "distance": "0.1 mi",
+      "duration": "1 min",
+      "maneuver": "ramp-right",
+      "direction": "Take the <b>I-190 W</b>/<b>I-294 S</b> exit toward <b>Ohare</b>/<b>Indiana</b><div style=\"font-size:0.9em\">Toll road</div>"
+    },
+    {
+      "distance": "1.2 mi",
+      "duration": "2 mins",
+      "maneuver": "fork-right",
+      "direction": "Keep <b>right</b> at the fork, follow signs for <b>Interstate 190 W</b>/<b>O'Hare</b> and merge onto <b>I-190 W</b><div style=\"font-size:0.9em\">Partial toll road</div>"
+    },
+    {
+      "distance": "0.4 mi",
+      "duration": "1 min",
+      "maneuver": "ramp-right",
+      "direction": "Take the exit toward <b>Bessie Coleman Dr</b>"
+    },
+    {
+      "distance": "184 ft",
+      "duration": "1 min",
+      "maneuver": "straight",
+      "direction": "Continue straight"
+    },
+    {
+      "distance": "92 ft",
+      "duration": "1 min",
+      "maneuver": "turn-left",
+      "direction": "Turn <b>left</b>"
+    },
+    {
+      "distance": "384 ft",
+      "duration": "1 min",
+      "maneuver": "turn-left",
+      "direction": "Turn <b>left</b>"
+    },
+    {
+      "distance": "82 ft",
+      "duration": "1 min",
+      "maneuver": "turn-right",
+      "direction": "Turn <b>right</b>"
+    },
+    {
+      "distance": "151 ft",
+      "duration": "1 min",
+      "maneuver": "turn-left",
+      "direction": "Turn <b>left</b>"
+    },
+    {
+      "distance": "49 ft",
+      "duration": "1 min",
+      "maneuver": "turn-left",
+      "direction": "Turn <b>left</b><div style=\"font-size:0.9em\">Destination will be on the left</div>"
+    }
+  ]
+}
