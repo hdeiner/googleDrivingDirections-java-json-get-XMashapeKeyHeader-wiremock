@@ -4,7 +4,7 @@ Feature: Google Maps Driving Directions
   http://montanaflynnhttp://montanaflynn.me/lab/mapit/
 
   Scenario Outline: Home to N07
-    Given I am testing on the actual web service
+    Given I am testing on the fake web service
     When I want to go from "28 Lincoln Park Road, Pequannock NJ"
     And to "Lincoln Park Airport, Lincoln Park NJ"
     Then I should see that the total Distance is "1.5 mi"
@@ -19,7 +19,7 @@ Feature: Google Maps Driving Directions
       |5  |Turn right Destination will be on the left|1 min       |30 ft           |
 
   Scenario Outline: Atrium to National Car Rental return at KORD
-    Given I am testing on the actual web service
+    Given I am testing on the fake web service
     When I want to go from "3800 Gulf Road, Rolling Meadows IL"
     And to "560 Bessie Coleman Dr, Chicago"
     Then I should see that the total Distance is "13.0 mi"
