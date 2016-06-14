@@ -1,8 +1,10 @@
-package main.java;
+package test.java;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import main.java.GoogleDrivingDirections;
+import main.java.GoogleDrivingDirectionsLeg;
 
 import java.util.ArrayList;
 
