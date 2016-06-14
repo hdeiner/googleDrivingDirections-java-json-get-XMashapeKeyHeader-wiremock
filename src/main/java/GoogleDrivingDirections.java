@@ -20,6 +20,7 @@ public class GoogleDrivingDirections {
 	private URL url;
 	private URI uri;
 	private JSONResource response;
+	private JSONArray directionsArray;
 
     private static final String X_MASHAPE_KEY = "dz76zlrCVimsh0GehwwnBjbZVXdgp1LwLckjsnety8AmdZq63k";
 
@@ -50,9 +51,11 @@ public class GoogleDrivingDirections {
 
 			uri = new URI(url.getProtocol(), url.getUserInfo(), url.getHost(), url.getPort(), url.getPath(), url.getQuery(), url.getRef());	
 			response = restCall.json(uri);
+			directionsArray = new JSONArray(response.get("directions").toString());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+
 		if (useFakeServer) {
 			wireMockServer.stop();
 		}
@@ -68,13 +71,13 @@ public class GoogleDrivingDirections {
 
     public ArrayList<GoogleDrivingDirectionsLeg> getDirections() throws Exception {
         ArrayList<GoogleDrivingDirectionsLeg> directions = new ArrayList<GoogleDrivingDirectionsLeg>();
-        JSONArray responseArray = new JSONArray(response.get("directions").toString());
-        for (int i=0; i<responseArray.length(); i++) {
+        directionsArray = new JSONArray(response.get("directions").toString());
+        for (int i=0; i<directionsArray.length(); i++) {
             directions.add(new GoogleDrivingDirectionsLeg(
                     i+1,
-                    responseArray.getJSONObject(i).get("distance").toString(),
-                    responseArray.getJSONObject(i).get("duration").toString(),
-                    responseArray.getJSONObject(i).get("direction").toString()
+                    directionsArray.getJSONObject(i).get("distance").toString(),
+                    directionsArray.getJSONObject(i).get("duration").toString(),
+                    directionsArray.getJSONObject(i).get("direction").toString()
                     ));
         }
         return directions;
