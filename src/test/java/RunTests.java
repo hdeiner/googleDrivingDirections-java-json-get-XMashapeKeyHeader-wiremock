@@ -13,7 +13,7 @@ import cucumber.api.CucumberOptions;
 //      tags     = "",
         monochrome = false,
         features = { "src/test/resources/features/" },
-        glue     = {"main"},
+        glue     = {"test.java"},
         plugin   = { "pretty", "html:reports/cucumber-html-report", "json:reports/cucumber-json-report.json" }
 )
 
